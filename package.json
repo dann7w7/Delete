@@ -4,10 +4,11 @@
   "description": "Proyecto para DWPCII",
   "scripts": {
     "start": "node ./server/bin/www",
-    "dev": "DEBUG=Delete:server node --watch ./server/bin/www"
+    "development": "DEBUG=Delete:server node --watch ./server/bin/www"
   },
   "dependencies": {
     "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
     "express": "^4.18.2",
     "hbs": "^4.2.0",
     "http-errors": "^2.0.0",
