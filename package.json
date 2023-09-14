@@ -1,0 +1,16 @@
+{
+  "name": "delete",
+  "version": "1.0.0",
+  "description": "Proyecto para DWPCII",
+  "scripts": {
+    "start": "node ./server/bin/www",
+    "dev": "DEBUG=Delete:server node --watch ./server/bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0"
+  }
+}
